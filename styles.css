@@ -1,0 +1,133 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  display:contents;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-fluid{
+  display:inline;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.h2{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.row{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+body{
+  background: #ffffff;
+}
+/* Estilo para las tarjetas (cards) cuando se coloca el cursor sobre ellas */
+.card:hover {
+  /* Puedes personalizar los estilos aquí */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo para el botón "Más Información" cuando se coloca el cursor sobre él */
+.btn-primary:hover {
+  background-color: #052c80; /* Cambia el color de fondo al pasar el cursor */
+  color: #fff; /* Cambia el color del texto al pasar el cursor */
+  transition: background-color 0.2s ease, color 0.3s ease; /* Transición suave */
+}
+/* Estilos para el anuncio de Turtle Wax */
+.anuncio-turtle {
+  background-color: #ffcc00; /* Color de fondo para el anuncio de Turtle Wax */
+  padding: 20px; /* Espaciado interior para el anuncio */
+  text-align: center; /* Centra el contenido del anuncio */
+}
+
+/* Estilos para el anuncio de Shell Helix */
+.anuncio-banner {
+  background-color: #1a1919; /* Color de fondo para el anuncio de Shell Helix */
+  color: #fff; /* Color del texto en el anuncio de Shell Helix */
+  padding: 20px; /* Espaciado interior para el anuncio */
+  text-align: center; /* Centra el contenido del anuncio */
+}
+.section-padding{
+  padding: 70px 0;
+}
+
+.carousel-item{
+  height: 80vh;
+  min-height: 300px;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: auto;
+  min-height: 400px; /* Ajusta esta altura según tus necesidades */
+}
+.carousel-caption p{
+  letter-spacing: 2px;
+}
+
+.carousel-inner::before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 30, 82, 0.327);
+  z-index: 1;
+}
+
+.navbar-nav a{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-nav .navbar-nav-brand{
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+  color: #000;
+}
+
+.w-100{
+  height: 100vh;
+}
+
+.navbar-toggler{
+  padding: 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+@media(max-width: 767px ){
+  .navbar-nav{
+    text-align: center;
+  }
+  .carousel-item{
+    height: 70vh;
+  }
+  .w-100{
+    height:70vh;
+  }
+  .carousel-caption{
+    bottom: 125px;
+  }
+  .carousel-caption p{
+    width: 100%;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+}

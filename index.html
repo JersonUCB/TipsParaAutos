@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tips y Cuidado para Autos</title>
+
+    <!-- Agregar los enlaces a los archivos CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Agregar los enlaces a los archivos JavaScript de Bootstrap y Popper.js (necesario para algunos componentes de Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <!-- Agregar los enlaces a los iconos de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.20.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Agregar tu archivo de estilo personalizado -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Agregar tu archivo JavaScript personalizado -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <span class="text-primary">Tips para </span>Autos</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarS"
+          aria-controls="navbarS"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarS">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#consejos">Consejos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contenido de la página -->
+    <section id="inicio">
+      
+        <!-- Contenido de la sección "Inicio" -->
+        <!-- Carousel (Carrusel) -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"
+            aria-current="true"
+            aria-label="Slide 2"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"
+            aria-current="true"
+            aria-label="Slide 3"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Assets/portada1.jpg" alt="Imagen 1" class="d-block w-100" />
+              <div class="carousel-caption">
+                <p>
+                  Con estos consejos, podrás asegurarte de que tu automóvil esté
+                  en condiciones óptimas. Tu coche es un componente vital de tu
+                  vida cotidiana, ya que te lleva a tu trabajo, escuela y
+                  encuentros sociales.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/portada2.jpg" alt="Imagen 2" class="d-block w-100"/>
+              <div class="carousel-caption">
+                <p>
+                  Tu automóvil es más que una máquina, es una parte integral de
+                  tu vida. Piensa en todos los lugares a los que te ha llevado,
+                  en los momentos importantes que has compartido en su interior
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/portada3.jpg" alt="Imagen 3" class="d-block w-100" />
+              <div class="carousel-caption">
+                <p>
+                  Tu coche es mucho más que un simple medio de transporte. Es un
+                  testimonio de tu independencia y una inversión que vale la
+                  pena proteger
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#myCarousel"
+            role="button"
+            data-bs-slide="prev"
+            data-bs-target="#myCarousel"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#myCarousel"
+            role="button"
+            data-bs-slide="next"
+            data-bs-target="#myCarousel"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </a>
+        </div>
+
+    </section>
+
+    <section id="consejos">
+      <div class="container">
+        <!-- Contenido de la sección "Consejos" -->
+        <!-- Sección de Consejo 1 -->
+        <section class="container1">
+            <div class="card mb-3 border-3">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-md-12 col-12 mb-3 ml-3 mr-3">
+                      <img
+                        src="/Assets/cambioAceite.png"
+                        alt="Consejo 1"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-body col-lg-8 col-md-12 col-12">
+                      <h2 class="ml-3 mr-3">Cambio de Aceite Regular</h2>
+                      <p class="mb-3 mr-3 ml-3">
+                        El mantenimiento regular del aceite del motor es esencial para el buen
+                        funcionamiento de su automóvil. El aceite cumple la función de lubricar las
+                        partes móviles del motor, evitando el desgaste excesivo y
+                        garantizando un rendimiento óptimo. Asegúrese de cambiar el
+                        aceite de acuerdo con el intervalo de servicio recomendado por
+                        el fabricante de su automóvil.
+                      </p>
+                      <button class="btn btn-primary" id="mostrarMasInfo1" type="button">
+                        Más Información
+                      </button>
+                      <div id="informacionAdicional1" class="card d-none">
+                        <div class="card-body">
+                          <h5 class="card-title"> <strong>¿Cuándo es el momento adecuado para cambiar el aceite?</strong></h5>
+                          <p class="card-text">
+        Aquí hay algunas pautas generales: <br>
+        Kilometraje: <strong>El intervalo de cambio de aceite más común es cada 5,000 a 7,500 kilómetros (3,000 a 5,000 millas).</strong> Sin embargo, algunos vehículos modernos y <strong> sintéticos de alta calidad pueden extender este intervalo a 10,000 a 15,000 kilómetros (6,000 a 10,000 millas).</strong> Consulta el manual de tu automóvil para conocer la recomendación específica.<br>
+        Condiciones de conducción: Si conduces en condiciones severas, como tráfico intenso, climas extremadamente calurosos o fríos, o haces remolque frecuente, es posible que debas cambiar el aceite con más frecuencia, incluso si no has alcanzado el kilometraje recomendado. Las condiciones severas pueden causar un desgaste adicional en el aceite y el motor.<br>
+        Aceite sintético vs. aceite convencional: <strong> aceites sintéticos tienden a durar más que los aceites convencionales</strong> y ofrecen un mejor rendimiento a temperaturas extremas. Si utilizas aceite sintético de alta calidad, es posible que puedas extender los intervalos de cambio de aceite. 
+                          </p>
+                          <h5 class="card-text">
+                            <strong>¿Qué medida de aceite es adecuada según el kilometraje de tu automóvil?</strong>
+                          </h5>
+                          <p class="card-text">
+                            La medida de aceite que debes utilizar para tu automóvil se basa en varios factores, incluyendo el tipo de motor y las condiciones de uso. Las medidas de aceite más comunes son las siguientes: <br><br>
+        
+        <strong>1.- 10W-30:</strong> Este es uno de los aceites más utilizados y es adecuado para una amplia gama de vehículos. Es especialmente útil en climas con temperaturas moderadas.<br><br>
+        <strong>2.- 5W-30:</strong> Este aceite es ideal para climas fríos, ya que fluye más fácilmente a bajas temperaturas. Es una opción popular para muchos automóviles.<br><br>
+        <strong>3.- 10W-40:</strong> Esta medida es adecuada para motores que pueden tener un poco más de desgaste debido al kilometraje. Proporciona una buena protección tanto en climas cálidos como fríos.<br><br>
+        <strong>4.- 5W-20:</strong> Recomendado para vehículos más nuevos y eficientes en el consumo de combustible. Funciona bien en condiciones de temperatura moderada.<br><br>
+        <strong>5.- 20W-50:</strong> Ideal para motores más antiguos o aquellos que operan en climas extremadamente cálidos. Proporciona una buena protección en condiciones de alta temperatura.<br><br>
+        La medida de aceite correcta para tu automóvil suele estar especificada en el manual del propietario y en la tapa de llenado de aceite del motor. Asegúrate de seguir estas recomendaciones para garantizar un rendimiento óptimo del motor y una protección adecuada contra el desgaste.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  
+            </div>
+        </section>    
+
+
+            <!-- Sección de Consejo 2 -->
+            <section class="container">
+                <div class="card mb-3 border-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <img
+                            src="/Assets/neumatico1.jpg"
+                            alt="Consejo 2"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="card-body col-lg-8 col-md-12 col-12">
+                          <h2>Verificación de Neumáticos</h2>
+                          <p>
+                            Los neumáticos en buen estado son esenciales para la seguridad, el rendimiento y la eficiencia de tu automóvil.<br>
+                            La importancia de la presión de llantas adecuadas influirá en tu seguridad, en la maniobravilidad, el rendimiento de combustible.
+                          </p>
+                          <button class="btn btn-primary" id="mostrarMasInfo2" type="button">
+                            Más Información
+                          </button>
+                          <div id="informacionAdicional2" class="card d-none">
+                            <div class="card-body">
+                              <h5 class="card-title"> <strong>¿Cuál es la Presión de Neumáticos Adecuada?</strong></h5>
+                              <p class="card-text">
+                                La información sobre la presión recomendada se encuentra generalmente en una etiqueta ubicada en el marco de la puerta del conductor o en el manual del propietario. Asegúrate de seguir estas recomendaciones y verifica la presión al menos una vez al mes, utilizando un medidor de presión de neumáticos confiable.<br>
+                                Ejemplos por segmentos de vehiculos:<br><br>
+                                <strong>1. Automóviles Sedán:</strong><br> Medida común: 195/65R15<br>
+                                Presión recomendada: 30-35 psi (libras por pulgada cuadrada) para neumáticos de tamaño estándar.<br>
+                                Ejemplo: Toyota Camry con neumáticos 195/65R15 generalmente requiere 32 psi en las cuatro ruedas.<br><br>
+                                <strong>2. Camionetas y SUV: </strong><br>Medida común: 235/65R17<br>
+                                Presión recomendada: 32-35 psi para neumáticos de tamaño mediano.<br>
+                                Ejemplo: Ford Escape con neumáticos 235/65R17 generalmente requiere 33 psi en las cuatro ruedas.<br><br>
+                                <strong>3. Vehículos Deportivos y de Alto Rendimiento:</strong><br>Medida común: 245/40R18<br>
+                                Presión recomendada: 35-40 psi para neumáticos de alto rendimiento.<br>
+                                Ejemplo: BMW M3 con neumáticos 245/40R18 generalmente requiere 38 psi en las cuatro ruedas.<br><br>
+                                <strong>4. Camiones y Vehículos Todo Terreno (4x4): </strong><br> Medida común: 265/70R17<br>
+                                Presión recomendada: 35-40 psi para camiones medianos y SUV todo terreno.<br>
+                                Ejemplo: Toyota Tacoma con neumáticos 265/70R17 generalmente requiere 36 psi en las cuatro ruedas.<br><br>
+                                <strong>5. Vehículos de Carga y Comerciales:</strong><br> Medida común: 215/75R16<br>
+                                Presión recomendada: 45-50 psi para vehículos de carga y comerciales.<br>
+                                Ejemplo: Toyota Coaster con neumáticos2 15/75R16 generalmente requiere 45-50 psi para vehículos de carga y comerciales. <br><br>
+                            </p>
+                              <h5 class="card-text">
+                                <strong>Vida Útil de los Neumáticos</strong>
+                              </h5>
+                              <p class="card-text">
+                                En general, los neumáticos pueden durar entre 40,000 y 80,000 kilómetros, pero es esencial estar atento a las siguientes señales que indican que es hora de reemplazarlos: <br><br>
+            
+            <strong>1.- Profundidad del Banda de Rodadura:</strong> Si la profundidad de la banda de rodadura está cerca de 2/32 de pulgada (1.6 mm), es hora de reemplazar los neumáticos, ya que la capacidad de agarre disminuye significativamente.<br><br>
+            <strong>2.- Desgaste Desigual:</strong>  Si notas un desgaste desigual en los neumáticos, podría ser un indicio de un problema de alineación o suspensión que debe ser reparado.<br><br>
+            <strong>3.- Grietas o Daños Visibles:</strong> Inspecciona tus neumáticos en busca de cortes, grietas, protuberancias o daños visibles. Estos pueden ser signos de problemas internos y deben ser evaluados por un profesional.<br><br>
+            <strong>4.- Edad:</strong> Incluso si los neumáticos tienen suficiente banda de rodadura, si tienen más de seis años, es recomendable considerar su reemplazo, ya que los materiales del neumático pueden deteriorarse con el tiempo.<br><br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                </div>
+            </section>
+
+
+
+            <!-- Sección de Consejo 3 -->
+            <section class="container">
+                <div class="card mb-3 border-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <img
+                            src="/Assets/limpieza.jpg"
+                            alt="Consejo 3"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="card-body col-lg-8 col-md-12 col-12">
+                          <h2>Limpieza Exterior</h2>
+                          <p>
+                            Mantener la carrocería de tu vehículo limpia y protegida no es solo una cuestión de estética; es esencial para preservar su valor, prolongar su vida útil y asegurar un viaje seguro.. En este artículo, exploraremos la importancia de mantener el exterior de tu automóvil limpio y ofreceremos algunos consejos para un cuidado adecuado al lavarlo.
+                          </p>
+                          <button class="btn btn-primary" id="mostrarMasInfo3" type="button">
+                            Más Información
+                          </button>
+                          <div id="informacionAdicional3" class="card d-none">
+                            <div class="card-body">
+                              <h5 class="card-title"> <strong>La Importancia de la Limpieza Exterior:</strong></h5>
+                              <p class="card-text">
+                                <strong>1. Protección contra la corrosión:</strong><br>La suciedad, el polvo y los residuos pueden acumularse en la carrocería y, con el tiempo, provocar corrosión y daños en la pintura y el metal. Mantener tu auto limpio ayuda a prevenir este tipo de deterioro.<br><br>
+                                <strong>2. Mantenimiento de la pintura: </strong><br>La exposición constante a elementos como la luz solar, la lluvia y los insectos puede dañar la pintura de tu vehículo. Lavar regularmente el automóvil ayuda a eliminar los contaminantes y proteger la pintura.<br><br>
+                                <strong>3. Visibilidad:</strong><br> Un parabrisas y ventanas limpios son esenciales para una conducción segura. La suciedad en el exterior puede obstaculizar la visión y aumentar el riesgo de accidentes.<br><br>
+                                <strong>4. Valor de reventa: </strong><br> Un automóvil limpio y bien mantenido tiene un mayor valor de reventa. La apariencia cuidada puede influir en la decisión de compra de un futuro propietario.<br><br>
+                            </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!-- Banner publicitario de Shell -->
+            <div class="container">
+                <div class="anuncio-banner">
+                <h4>Anuncio Shell Helix</h4>
+                <center>
+                <img src="https://kp-shelllubricant.com/wp-content/uploads/2022/03/11-Mar-Website-Banner-ENG.png" alt="Banner Publicitario de Shell">
+                <p>¡Por nuestro <a href="https://www.shell.com.bo/#" target="_blank">aniversario</a>!! Gran descuento del 20% en nuestros productos ! ¡No te lo pierdas!</p>
+                </center>
+                </div>
+            </div>
+
+            <!-- Sección de Consejo 4 -->
+            <section class="container">
+                <div class="card mb-3 border-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <img
+                            src="/Assets/frenos.jpg"
+                            alt="Consejo 4"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="card-body col-lg-8 col-md-12 col-12">
+                          <h2>Mantenimiento del Sistema de Frenos</h2>
+                          <p>
+                            El sistema de frenos de tu automóvil es una de las características más críticas para la seguridad en la carretera. Mantenerlo en buen estado es esencial para garantizar una conducción segura y evitar accidentes. En este artículo, nos enfocaremos en las pastillas de freno: cuándo debes cambiarlas y cómo detectar si se han desgastado.
+                          </p>
+                          <button class="btn btn-primary" id="mostrarMasInfo4" type="button">
+                            Más Información
+                          </button>
+                          <div id="informacionAdicional4" class="card d-none">
+                            <div class="card-body">
+                              <h5 class="card-title"> <strong>¿Cuándo Debes Cambiar las Pastillas de Freno?</strong></h5>
+                              <p class="card-text">
+                                <strong>1. Sonido chirriante o metálico:</strong><br>Si escuchas un chirrido o un sonido metálico al frenar, es una señal clara de que las pastillas de freno están desgastadas y necesitan ser reemplazadas.<br><br>
+                                <strong>2. Mayor distancia de frenado: </strong><br>Si notas que tu automóvil requiere más distancia para detenerse, incluso al aplicar la misma presión en el pedal de freno, es un signo de desgaste de las pastillas.<br><br>
+                                <strong>3. Vibraciones o pulsaciones en el pedal de freno: </strong><br> Si sientes vibraciones o pulsaciones al frenar, podría ser un indicio de que las pastillas de freno están gastadas de manera desigual y necesitan atención.<br><br>
+                                <strong>4. Luz de advertencia de freno en el tablero: </strong><br> Algunos vehículos tienen una luz de advertencia en el tablero que se ilumina cuando las pastillas de freno están desgastadas. Si esta luz se enciende, es importante investigar y resolver el problema de inmediato.<br><br>
+                                <strong>5. Inspección visual: : </strong><br> Puedes verificar visualmente las pastillas de freno a través de las ruedas. Si las pastillas tienen menos de 3 mm de espesor, es recomendable reemplazarlas.<br><br>
+                                
+                            </p>
+                            <h5 class="card-title"> <strong>¿Cómo Detectar el Desgaste de las Pastillas?</strong></h5>
+                              <p class="card-text">
+                                Si deseas inspeccionar el desgaste de las pastillas de freno tú mismo, sigue estos pasos:<br><br>
+                                <strong>1. Levanta el vehículo de manera segura con gatos y soportes</strong><br>
+                                <strong>2. Retira la rueda delantera para acceder al conjunto de frenos </strong><br>
+                                <strong>3. Examina las pastillas de freno. Deberías poder ver la superficie de frenado. Si está muy delgada o muestra signos de desgaste irregular, es hora de reemplazarlas </strong><br> 
+                            </p>
+
+
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <!-- Sección de Consejo 5 -->
+            <section class="container">
+                <div class="card mb-3 border-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <img
+                            src="/Assets/filtroAireAceite.jpg"
+                            alt="Consejo 5"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="card-body col-lg-8 col-md-12 col-12">
+                          <h2>Cambio de Filtros</h2>
+                          <p>
+                            Dos componentes cruciales en este mantenimiento son los filtros de aire y aceite. En este artículo, exploraremos cuándo debes cambiar estos filtros y cómo darte cuenta de que es hora de hacerlo.
+                          </p>
+                          <button class="btn btn-primary" id="mostrarMasInfo5" type="button">
+                            Más Información
+                          </button>
+                          <div id="informacionAdicional5" class="card d-none">
+                            <div class="card-body">
+                              <h5 class="card-title"> <strong>Filtro de Aire: ¿Cuándo Debes Cambiarlo?</strong></h5>
+                              <p class="card-text">
+                                El filtro de aire es responsable de asegurar que el aire que entra al motor esté limpio y libre de partículas dañinas. Cambiarlo regularmente es esencial para el rendimiento del motor y la eficiencia de combustible. Aquí están algunas pautas generales para el cambio del filtro de aire:<br><br>
+                                <strong>1. Intervalo de Cambio:</strong><br>En condiciones de conducción normales, se recomienda cambiar el filtro de aire cada 15,000 a 30,000 kilómetros, pero verifica el manual de propietario de tu vehículo para la recomendación específica del fabricante.<br><br>
+                                <strong>2. Señales de Reemplazo: </strong><br>Si observas una disminución en la eficiencia de combustible, una pérdida de potencia, un ralentí irregular o una mayor emisión de gases, podría ser un indicio de que es hora de cambiar el filtro de aire.<br><br>
+                                <strong>3. Conducción en Condiciones Extremas:</strong><br> Si conduces en condiciones polvorientas o con alta contaminación del aire, es posible que necesites cambiar el filtro de aire con más frecuencia.<br><br>
+                            </p>
+                            <h5 class="card-title"> <strong>Filtro de Aceite: ¿Cuándo Debes Cambiarlo?</strong></h5>
+                              <p class="card-text">
+                                El filtro de aceite es fundamental para mantener el aceite del motor limpio y libre de contaminantes. Cambiarlo regularmente es crucial para prevenir daños en el motor y el desgaste prematuro. Aquí están algunas pautas para el cambio del filtro de aceite:<br><br>
+                                <strong>1. Intervalo de Cambio:</strong><br> Por lo general, se recomienda cambiar el filtro de aceite cada vez que se cambia el aceite del motor, que suele ser cada 5,000 a 10,000 kilómetros. Consulta el manual de propietario de tu vehículo para la recomendación específica.<br><br>
+                                <strong>2. Señales de Reemplazo: </strong><br>Si el aceite se ensucia rápidamente o notas una pérdida de presión de aceite en el tablero, es un indicio de que el filtro de aceite podría estar obstruido y necesitas reemplazarlo.<br><br>
+                                <strong>3. Desgaste del Aceite:</strong><br> Si al verificar el nivel de aceite notas partículas extrañas o una apariencia lodosa en el aceite, es un signo de que el filtro de aceite no está funcionando adecuadamente.<br><br>
+                            </p>
+
+
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- Banner publicitario de Turtle Wax -->
+            <div class="container">
+                <div class="anuncio-turtle">
+                <h4>Anuncio Turtle Wax</h4>
+                <center>
+                <img src="https://tiempolibreguzman.com/wp-content/uploads/2021/12/destacado-2.jpg" alt="Banner Publicitario de Turtle Wax">
+                <p>WANT A  <a href="https://www.turtlewax.com" target="_blank">DISCOUNT</a> OFF YOUR FIRST ORDER? TAKE 15% OFF</p>
+                </center>
+                </div>
+            </div>
+
+            <!-- Sección de Consejo 6 -->
+            <section class="container">
+                <div class="card mb-3 border-3">
+                    <div class="row g-0">
+                        <div class="col-lg-4 col-md-12 col-12">
+                          <img
+                            src="/Assets/InteriorClean.jpg"
+                            alt="Consejo 6"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="card-body col-lg-8 col-md-12 col-12">
+                          <h2>Cuidado del Interior</h2>
+                          <p>
+                            Mantener un interior limpio y bien cuidado no solo mejora la apariencia de tu automóvil, sino que también aumenta su comodidad y valor a lo largo del tiempo. Además, en regiones con climas soleados, proteger el interior del daño causado por los rayos ultravioleta (UV) es esencial. Aquí te presentamos algunos consejos y productos para evitar el desgaste por el sol y mantener el interior de tu vehículo en óptimas condiciones.
+                          </p>
+                          <button class="btn btn-primary" id="mostrarMasInfo6" type="button">
+                            Más Información
+                          </button>
+                          <div id="informacionAdicional6" class="card d-none">
+                            <div class="card-body">
+                              <h5 class="card-title"> <strong>Protegiendo tu Espacio con Elegancia<br><br></strong></h5>
+                              <p class="card-text">
+                                <strong>1. Limpieza Regular:</strong><br>Realiza una limpieza regular del interior de tu automóvil para eliminar el polvo, la suciedad y los residuos. Un aspirador para automóvil, un cepillo suave y un paño de microfibra son herramientas esenciales para mantener los asientos, alfombras y superficies libres de suciedad y polvo.<br><br>
+                                <strong>2. Utiliza Productos de Limpieza Adecuados: </strong><br>Cuando limpies las superficies del interior, asegúrate de utilizar productos de limpieza específicamente diseñados para automóviles. Evita productos químicos abrasivos que puedan dañar el acabado de las superficies.<br><br>
+                                <strong>3. Protección contra los Rayos UV:</strong><br> Los rayos UV del sol pueden dañar los materiales del interior con el tiempo, causando decoloración, agrietamiento y un aspecto envejecido. Aquí te presento algunas formas de proteger el interior: <br><br>
+                                <strong>Parasoles:</strong> Utiliza parasoles en el parabrisas y las ventanas laterales cuando estaciones tu automóvil bajo el sol. Esto ayuda a reducir la cantidad de luz solar directa que llega al interior.<br><br>
+                                <strong>Funda para el Parabrisas:</strong>  Una funda para el parabrisas puede proporcionar una protección adicional contra los rayos UV y ayudar a mantener una temperatura más fresca en el interior.<br><br>
+                                <strong>Tratamientos UV:</strong>  Considera aplicar un tratamiento UV a las superficies interiores de tu vehículo. Estos productos ayudan a bloquear los rayos UV y a proteger los materiales.<br><br>
+                            </p>
+
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </section>
+
+
+                <!-- Sección de Consejo 7 -->
+                <section class="container">
+                    <div class="card mb-3 border-3">
+                        <div class="row g-0">
+                            <div class="col-lg-4 col-md-12 col-12">
+                              <img
+                                src="/Assets/gasolina2.jpg"
+                                alt="Consejo 7"
+                                class="img-fluid"
+                              />
+                            </div>
+                            <div class="card-body col-lg-8 col-md-12 col-12">
+                              <h2> Evita Conducir con Poco Combustible</h2>
+                              <p>
+                                La bomba de gasolina de tu vehículo es una parte esencial de su funcionamiento. Sin embargo, a menudo damos por sentado su importancia y no le prestamos la atención que merece. Uno de los errores comunes que cometemos es conducir con un nivel bajo de combustible de manera regular, y esto puede tener algunas desventajas y efectos negativos en la bomba de gasolina y en tu bolsillo.
+                              </p>
+                              <button class="btn btn-primary" id="mostrarMasInfo7" type="button">
+                                Más Información
+                              </button>
+                              <div id="informacionAdicional7" class="card d-none">
+                                <div class="card-body">
+                                  <h5 class="card-title"> <strong>Desventajas de Conducir con Poco Combustible:<br><br></strong></h5>
+                                  <p class="card-text">
+                                    <strong>1. Sobrecarga de la Bomba de Gasolina: </strong><br>Cuando conduces con poco combustible, la bomba de gasolina puede verse sometida a una mayor carga de trabajo. El combustible actúa como un refrigerante para la bomba, y si el nivel de combustible es bajo, la bomba puede calentarse más rápido y sufrir un desgaste prematuro<br><br>
+                                    <strong>2. Sedimentos en el Combustible: </strong><br>En la parte inferior del tanque de combustible, a menudo se acumulan sedimentos y residuos. Conducir con poco combustible aumenta las posibilidades de que estos sedimentos lleguen a la bomba de gasolina, lo que puede obstruir los filtros y dañar la bomba.<br><br>
+                                    <strong>3. Mayor Riesgo de Avería:</strong><br> Conducir con poco combustible también aumenta el riesgo de quedarte varado en el camino debido a la falta de combustible. Esto no solo es inconveniente, sino que también puede provocar costosas reparaciones si la bomba de gasolina se daña.<br><br>
+                                    
+                                </p>
+                                <div class="card-body">
+                                    <h5 class="card-title"> <strong>¿Cuándo Debes Rellenar el Depósito?<br><br></strong></h5>
+                                    <p class="card-text">
+                                    La pregunta clave es cuándo debes rellenar el depósito para cuidar la bomba de gasolina y mantener tu vehículo en buen estado. Aquí hay algunas recomendaciones:<br><br>
+                                    <strong>1. Mantén al Menos un Cuarto de Tanque:</strong><br>Intenta no dejar que el nivel de combustible caiga por debajo de un cuarto de tanque. Esto proporciona un margen de seguridad adecuado para que la bomba de gasolina funcione con eficacia y evita que los sedimentos entren en el sistema.<br><br>
+                                    <strong>2. Recarga en Estaciones de Confianza: </strong><br>Cuando llegues a un cuarto de tanque, busca una estación de servicio confiable y llena el depósito por completo. Esto reducirá la exposición de la bomba de gasolina a aire y humedad, lo que puede ayudar a prevenir la oxidación y el desgaste prematuro.<br><br>
+                                    <strong>3. Planifica con Anticipación:</strong><br>  Evita conducir constantemente en reserva. Planifica tus recorridos y viajes con suficiente tiempo para llenar el tanque antes de que llegues a un nivel críticamente bajo de combustible.<br><br>
+                                        
+                                </p>
+    
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+    
+            </div>
+        </section>
+
+<!-- Agregar jQuery (asegúrate de que se cargue antes de Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Agregar Bootstrap JS (asegúrate de que se cargue después de jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
+  
+
+    <section id="contacto">
+        <!-- Footer -->
+        <footer class="bg-dark text-light text-center py-3">
+            <p>&copy; 2023 Tips para autos. All rights reserved.</p>
+            <a href="mailto:jerson.garcia@ucb.edu.bo" class="text-light">jerson.garcia@ucb.edu.bo</a>
+        </footer>
+    </section>
+  </body>
+</html>
